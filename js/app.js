@@ -27,6 +27,11 @@ if ( discount === 'Giovane') {
 }
 
 console.log (biglietto)
+
+//adesso dobbiamo solo cambiare il p con il risultato del biglietto 
+divRisultato.innerHTML = (`Il tuo viaggio avrà un costo di ${biglietto.toFixed(2)} EUR`) 
+
+
 })
 
 
