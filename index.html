@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglietto del treno</title>
+    
+</head>
+<body>
+    <main>
+        <div>
+            <div>
+                <input id="numero-km" type="text" placeholder="Inserisci numero di km">
+            </div>
+
+            <div>
+                <label for="choosen-discount">Decidi il tuo sconto</label>
+                <select name="sconto" id="sconto">
+                    <option value="1">Prezzo Intero</option>
+                    <option value="2">Giovane</option>
+                    <option value="3">Senior</option>
+                </select>
+            </div>  
+
+            <div>
+                <button id="prezzo-finale">Calcola il prezzo del viaggio</button>
+            </div>
+
+            <div>
+                <p id="risultato">Il tuo viaggio avrà un costo di</p>
+            </div>
+    </main>
+    
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
